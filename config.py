@@ -18,15 +18,6 @@ PIX_CHAVE = "44991796792"
 
 # Produtos da loja
 PRODUTOS = {
-    "Produto Teste": {
-        "preco": 10.00,
-        "estoque": 5
-    },
-    "VIP Minecraft": {
-        "preco": 25.00,
-        "estoque": 10
-    }
-}
     "100 Lucky Spins + 100 Lucky Spins Ability": {
         "preco": 2.00,
         "estoque": 999,
