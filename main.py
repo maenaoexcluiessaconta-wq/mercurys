@@ -78,6 +78,7 @@ def create_product_embed(produto, dados):
 
     embed.add_field(name="💰 Preço", value=f"R$ {dados.get('preco', 0):.2f}", inline=True)
     embed.add_field(name="📦 Estoque", value=dados.get("estoque", 0), inline=True)
+    embed.add_field(name="📄 Descrição", value=dados.get("descricao", "Sem descrição"), inline=False)
 
     embed.set_image(url=BANNER_URL)
     return embed
