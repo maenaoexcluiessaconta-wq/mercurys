@@ -1,15 +1,32 @@
-TOKEN = "MTUyMzM5NzE3NzcxMDM0NjM0MA.GJUMGn.sxbnnwnxA-FxQHinPusqSY1tVelp_7BoBeZq9A"
+# ============================
+# CONFIGURAÇÃO DO BOT
+# ============================
+
+# ⚠️ No Render você NÃO precisa colocar TOKEN aqui
+# Ele vem do Environment Variable (os.getenv)
 
 COR = 0x7C4DFF
 
-BANNER = "https://cdn.discordapp.com/attachments/1521006030241271998/1523405068819501126/IMG-20260705-WA0004.jpg?ex=6a4bfd07&is=6a4aab87&hm=155a7f5a5137d85308f47020be464d5274fe1d96beff63924d2375cc7023baa3&"
+# Banner da loja
+BANNER = "MTUyMzM5NzE3NzcxMDM0NjM0MA.GJUMGn.sxbnnwnxA-FxQHinPusqSY1tVelp_7BoBeZq9A"
 
+# Categoria onde os tickets serão criados
 CATEGORIA_PEDIDOS = "🛒 PEDIDOS"
 
+# Chave PIX (vai aparecer no checkout)
 PIX_CHAVE = "44991796792"
 
-
+# Produtos da loja
 PRODUTOS = {
+    "Produto Teste": {
+        "preco": 10.00,
+        "estoque": 5
+    },
+    "VIP Minecraft": {
+        "preco": 25.00,
+        "estoque": 10
+    }
+}
     "100 Lucky Spins + 100 Lucky Spins Ability": {
         "preco": 2.00,
         "estoque": 999,
