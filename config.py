@@ -8,7 +8,7 @@
 COR = 0x7C4DFF
 
 # Banner da loja
-BANNER = "MTUyMzM5NzE3NzcxMDM0NjM0MA.GJUMGn.sxbnnwnxA-FxQHinPusqSY1tVelp_7BoBeZq9A"
+BANNER = "https://cdn.discordapp.com/attachments/1521006030241271998/1523405068819501126/IMG-20260705-WA0004.jpg?ex=6a4bfd07&is=6a4aab87&hm=155a7f5a5137d85308f47020be464d5274fe1d96beff63924d2375cc7023baa3&"
 
 # Categoria onde os tickets serão criados
 CATEGORIA_PEDIDOS = "🛒 PEDIDOS"
